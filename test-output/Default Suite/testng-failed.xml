@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="SeleniumFramework(failed)">
+    <classes>
+      <class name="com.SeleniumFramework.testcases.TC_Login_001">
+        <methods>
+          <include name="tear"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.SeleniumFramework.testcases.TC_Login_001 -->
+    </classes>
+  </test> <!-- SeleniumFramework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+          <listener class-name="com.SeleniumFramework.Listeners.Reporting"></listener>
+    </listeners>
+    <test name ="Demo">
+        <parameter name="browser" value="Edge"></parameter>
+        <classes><class name="com.SeleniumFramework.testcases.TC_Login_001">
+            <methods>
+                <include name="login"/>
+                <exclude name="listener" >
+
+                </exclude>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
